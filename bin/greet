@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-"Hi, it's nice to meet you"
-"What is your name?"
+puts "Hi, it's nice to meet you"
+puts "What is your name?"
 name = gets.slice
 greeting(name)
