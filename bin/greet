@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-# code your CLI here!
+"Hi, it's nice to meet you"
+"What is your name?"
+name = gets.slice
+greeting(name)
